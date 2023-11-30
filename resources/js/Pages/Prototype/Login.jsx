@@ -64,12 +64,14 @@ export default function Login(){
                             Start Watching
                         </span>
                     </a> */}
-                    
+                    <Link href={route('prototype.dashboard')}>
                     <PrimaryButton >
                     <span className="text-base font-semibold">
-                            Start Watchings
+                            Mulai Menonton
                         </span>
                     </PrimaryButton>
+                    </Link>
+
                     <Link href={route('prototype.register')}>
                     <SecondaryButton>
                     <span className="text-base font-semibold">
